@@ -1,36 +1,146 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🚀 Meeting Cost Analyzer
 
-## Getting Started
+![Next.js](https://img.shields.io/badge/Next.js-16-black?logo=next.js)
+![React](https://img.shields.io/badge/React-Frontend-blue?logo=react)
+![TypeScript](https://img.shields.io/badge/TypeScript-Strict-blue?logo=typescript)
+![Supabase](https://img.shields.io/badge/Database-Supabase-green?logo=supabase)
+![License](https://img.shields.io/badge/License-MIT-yellow)
 
-First, run the development server:
+A modern **SaaS-style analytics dashboard** that calculates the **real cost of meetings** using Google Calendar data.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+This application connects to **Google Calendar**, analyzes meeting duration and participants, and estimates how much money organizations spend in meetings.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+# 📊 Features
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### 📅 Google Calendar Integration
+Securely connects to Google Calendar and fetches meeting events.
 
-## Learn More
+### 💰 Meeting Cost Calculation
+Automatically calculates meeting cost using the formula:
 
-To learn more about Next.js, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### 📊 Analytics Dashboard
+The dashboard displays important insights such as:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- Weekly meeting cost
+- Total meetings
+- Total meeting hours
+- Average meeting cost
 
-## Deploy on Vercel
+### ⚡ Live Meeting Cost Meter
+Displays the **real-time cost of meetings while they are happening**.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### 📋 Meeting Insights
+View detailed meeting data including:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- Meeting title
+- Duration
+- Participants
+- Estimated cost
+
+### ⚙️ Custom Hourly Rate
+Users can set their own hourly rate for accurate calculations.
+
+---
+
+# 🖥️ Tech Stack
+
+### Frontend
+- Next.js
+- React
+- TypeScript
+- Tailwind CSS
+
+### Backend
+- Next.js API Routes
+
+### Authentication
+- NextAuth.js
+- Google OAuth
+
+### Database
+- Supabase
+
+### External APIs
+- Google Calendar API
+
+---
+
+# 📂 Project Structure
+
+
+---
+
+# ⚙️ Installation
+
+### Clone the repository
+
+
+### Go to the project directory
+
+
+### Install dependencies
+
+
+### Start development server
+
+
+### Open in browser
+
+
+---
+
+# 🔑 Environment Variables
+
+Create a `.env.local` file in the root directory.
+
+
+
+---
+
+# 📈 How Cost Is Calculated
+
+The system estimates meeting cost using:
+
+
+### Example
+
+---
+
+# 💡 Why This Project
+
+Meetings are often **time consuming and expensive**.
+
+This tool helps organizations:
+
+- Understand meeting costs
+- Reduce unnecessary meetings
+- Improve productivity
+- Make better scheduling decisions
+
+---
+
+# 🔮 Future Improvements
+
+- AI suggestions to reduce meeting costs
+- Slack / Zoom integration
+- Team productivity analytics
+- Meeting efficiency score
+- Automated meeting insights
+
+---
+
+# 👨‍💻 Author
+
+**Arvind Dwivedi**
+
+Electronics and Communication Engineering Student  
+Interested in building modern web applications and AI-powered tools.
+
+---
+
+# ⭐ Support
+
+If you like this project, please consider giving it a **star ⭐ on GitHub**.
